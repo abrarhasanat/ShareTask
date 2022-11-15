@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CLient.ShowController">
+   <children>
+      <TextField fx:id="port" layoutX="309.0" layoutY="705.0" prefHeight="31.0" prefWidth="318.0" promptText="Port" />
+      <Button fx:id="startBTN" layoutX="745.0" layoutY="705.0" mnemonicParsing="false" onAction="#start" text="start" />
+      <Button layoutX="865.0" layoutY="705.0" mnemonicParsing="false" onAction="#stop" text="stop" />
+      <ImageView fx:id="image" fitHeight="600.0" fitWidth="1000.0" layoutX="254.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="46.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>
